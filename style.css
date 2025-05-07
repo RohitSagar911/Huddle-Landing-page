@@ -5,17 +5,16 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  max-width: 380px;
+  min-width: 375px;
   width: 100%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 /* ----header tag styling---- */
 .heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
-  margin: 0px 10px;
+  padding: 10px 20px;
   background-color: white;
 }
 .heading h1 {
@@ -69,11 +68,12 @@ body {
   color: hsl(192, 100%, 9%);
 }
 .sec1 h1 {
-  font-size: 1.5rem;
+ font-size: clamp(1.4rem, 3.6vw, 10rem);
+  margin: 0px 10vw;
 }
 .sec1 p {
-  font-size: 0.94rem;
-  margin: 0.4rem;
+  font-size: clamp(0.74rem, 1.4vw, 20rem);
+  margin:0px 12vw;
   color: hsla(192, 100%, 9%, 0.829);
 }
 .btn-2 {
@@ -103,7 +103,6 @@ body {
   margin: 1.4rem 1rem;
   color: hsl(192, 100%, 9%);
   margin-bottom: 6rem;
-
 }
 .container h1 img {
   width: 45px;
@@ -190,7 +189,6 @@ body {
   background-color: none;
   margin: 4rem 0rem;
   margin-top: -2rem;
-  
 }
 .c4 {
   /* margin: rem 2rem; */
