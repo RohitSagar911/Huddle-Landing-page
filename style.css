@@ -3,11 +3,11 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /* background-color: antiquewhite; */
 }
 body {
   min-width: 375px;
   width: 100%;
-  /* background-color: antiquewhite; */
 }
 /* ----header tag styling---- */
 .heading {
@@ -21,17 +21,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: clamp(1.475rem, 3vw, 2.6rem);
+
   font-weight: 5000;
   color: hsl(192, 100%, 9%);
 }
 .heading h1 img {
-  width: 25px;
-  height: 25px;
-  margin-right: 2px;
+  width: clamp(25px,3vh,55px);
+  height: auto;
+  margin-right: .41rem;
 }
 .heading a {
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 1.3vw, 2rem);
+
 }
 
 .btn-1 {
@@ -62,18 +64,18 @@ body {
   background-color: white;
   background-image: url(images/bg-section-top-mobile-1.svg);
   background-position: bottom;
-  background-size: fit;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 0px;
   color: hsl(192, 100%, 9%);
 }
 .sec1 h1 {
- font-size: clamp(1.4rem, 3.6vw, 10rem);
+  font-size: clamp(1.4rem, 3.3vw, 10rem);
   margin: 0px 10vw;
 }
 .sec1 p {
-  font-size: clamp(0.74rem, 1.4vw, 20rem);
-  margin:0px 12vw;
+  font-size: clamp(0.74rem, 1vw, 10rem);
+  margin: 0px 12vw;
   color: hsla(192, 100%, 9%, 0.829);
 }
 .btn-2 {
@@ -83,7 +85,7 @@ body {
   background-color: hsl(322, 100%, 66%);
   padding: 1rem 3.5rem;
   border-radius: 34px;
-  font-size: 0.8rem;
+  font-size: clamp(0.6rem,2vw,1.5rem);
   border: none;
   transition: 0.3s;
   color: hsl(0, 0%, 93%);
@@ -93,7 +95,7 @@ body {
 }
 .sec1 img {
   margin: 5rem 2rem;
-  width: 95%;
+  width: clamp(20rem,90vh,80%);
 }
 .container {
   display: flex;
@@ -104,19 +106,20 @@ body {
   color: hsl(192, 100%, 9%);
   margin-bottom: 6rem;
 }
-.container h1 img {
-  width: 45px;
-  margin: 0px;
-  align-self: left;
+.container .img1 {
+  width: clamp(45px, 8vw, 100px);
+  margin: 0;
+  align-self: flex-start; 
 }
+
 .container h1 {
-  font-size: 4rem;
+  font-size: clamp(4rem,10vw,20rem);
   display: flex;
   flex-direction: column;
 }
 .container p {
   text-align: center;
-  font-size: 1rem;
+  font-size: clamp(1rem,2vw,5rem);
   font-weight: 500;
   color: hsla(192, 100%, 9%, 0.599);
 }
@@ -153,7 +156,7 @@ body {
     url("images/bg-section-top-mobile-2.svg");
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
-  background-size: fit, fit;
+  background-size: cover, cover;
   padding: 4rem 1rem;
   padding-bottom: 9rem;
 }
