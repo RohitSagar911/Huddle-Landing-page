@@ -31,8 +31,8 @@
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
   vestibulum a, ultrices quis sem.
   
-  Phone: +1-543-123-4567
-  example@huddle.com
+ 
+ 
 
   Newsletter
   To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 

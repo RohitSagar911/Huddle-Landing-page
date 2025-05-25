@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Huddle</title>
+
   <!-- font import -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -18,61 +18,103 @@
 <body>
   <!-- header of page -->
   <header class="heading">
-    <h1><img src="/images/icon-messages.svg" alt=""> Huddle</h1>
+    <img class="logo" src="/images/logo.svg" alt="Huddle Logo">
     <a class="btn-1" href="#">Try it Free</a>
   </header>
-  <!-- section 1  -->
-  <section class="sec1">
-    <h1>Build The Community Your Fans Will Love</h1>
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does
-      your audience. Create connections with your users as you engage in genuine discussion.</p>
-    <a class="btn-2" href="#">Get Started For Free</a>
-    <img src="/images/screen-mockups.svg" alt="">
 
-    <!-- community articals -->
-    <article class="container">
+    <!-- section 1 -->
+    <section class="sec1">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
+        connections with your users as you engage in genuine discussion.</p>
+      <a class="btn-2" href="#">Get Started For Free</a>
+      <img src="/images/screen-mockups.svg" alt="Screen Mockups">
 
-      <h1><img class="img1" src="/images/icon-communities.svg" alt="">1.4k+</h1>
-      <p>Communities Formed</p>
-    </article>
-    <article class="container">
+      <!-- community stats -->
+      <div class="container">
+        <h2><img class="img1" src="/images/icon-communities.svg" alt="Community Icon">1.4k+</h2>
+        <p>Communities Formed</p>
+      </div>
+      <div class="container">
+        <h2><img class="img1" src="/images/icon-messages.svg" alt="Messages Icon">2.7m+</h2>
+        <p>Messages Sent</p>
+      </div>
+    </section>
 
-      <h1><img class="img1" src="/images/icon-messages.svg" alt="">2.7m+</h1>
-      <p>Messages Sent</p>
+    <!-- section 2 -->
+    <section class="sec2">
+      <article class="c2 container">
+        <img src="/images/illustration-grow-together.svg" alt="Grow Together Illustration">
+        <h2>Grow Together</h2>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the
+          insightful conversations you miss out on with a feedback form.</p>
+      </article>
+    </section>
+
+    <!-- section 3 -->
+    <section class="sec3">
+      <article class="c3 container">
+        <img src="/images/illustration-flowing-conversation.svg" alt="Flowing Conversations Illustration">
+        <h2>Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading
+          for a more natural flow.</p>
+      </article>
+    </section>
+
+    <!-- section 4 -->
+    <section class="sec4">
+      <article class="c4 container">
+        <img src="/images/illustration-your-users.svg" alt="Your Users Illustration">
+        <h2>Your Users</h2>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed
+          in to your app, your users can start chatting immediately.</p>
+      </article>
+    </section>
+
+    <!-- section 5 -->
+    <section class="sec5">
+      <article class="c5">
+        <h2>Ready To Build Your Community?</h2>
+        <a href="#" class="btn-2">Get Started For Free</a>
+      </article>
+    </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <article class="footer-art-1">
+      <h2>News Letter</h2>
+      <p>To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or
+        pass on your email address.</p>
+
+      <form class="frm">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit" class="btn-2">Subscribe</button>
+      </form>
     </article>
 
-  </section>
-  <!-- section 2  -->
-  <section class="sec2">
-    <article class="c2 container ">
-      <img src="/images/illustration-grow-together.svg" alt="">
-      <h2>Grow Together</h2>
-      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-        Think of the insightful conversations you miss out on with a feedback form.</p>
+    <article class="footer-art-2">
+      <h1 class="logo-bg"><img src="/images/icon-messages.svg" alt=""><span>Huddle</span></h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati iusto mollitia magnam ab ipsum nihil
+        incidunt a cumque laudantium eveniet.</p>
     </article>
-  </section>
-  <!-- section 3 -->
-  <section class="sec3">
-    <article class="c3 container ">
-      <img src="/images/illustration-flowing-conversation.svg" alt="">
-      <h2>Flowing Conversations</h2>
-      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-        just-in-time loading for a more natural flow.</p>
-    </article>
-  </section>
-  <!-- section 4 -->
-  <section class=" sec4 ">
-    <article class="c4 container ">
-      <img src="/images/illustration-your-users.svg" alt="">
-      <h2>Your Users</h2>
-      <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-        once signed in to your app, your users can start chatting immediately.
-      </p>
-    </article>
-  </section>
-  <footer>
 
+    <address class="contact-details">
+      <img src="/images/icon-phone.svg" alt="Phone Icon">
+      <p>Phone: +1-543-123-4567</p>
+    </address>
+
+    <address class="contact-details">
+      <img src="/images/icon-email.svg" alt="Email Icon">
+      <p>Email: support@huddle.com</p>
+    </address>
+
+    <div class="sci-icons-cont">
+      <img src="/images/facebook-svgrepo-com.png" alt="Facebook" class="icon">
+      <img src="/images/instagram-icon.png" alt="Instagram" class="icon">
+      <img src="/images/twitter-sign.png" alt="Twitter" class="icon">
+    </div>
   </footer>
+
   <script src="index.js"></script>
 </body>
 
