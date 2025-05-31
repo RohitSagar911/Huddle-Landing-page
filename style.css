@@ -183,7 +183,7 @@ img {
 
 .c2 p {
   color: hsla(192, 100%, 9%, 0.748);
-  font-size: clamp(1rem, 1.4vw, 4rem);
+  font-size: clamp(0.6rem, 1.4vw, 4rem);
   margin: 0rem 1rem;
   font-weight: 500;
 }
@@ -218,7 +218,7 @@ img {
 }
 
 .c3 p {
-  font-size: clamp(1rem, 1.4vw, 4rem);
+  font-size: clamp(0.6rem, 1.4vw, 4rem);
   color: hsla(192, 100%, 9%, 0.748);
   margin: 0rem 0.6rem;
 }
@@ -253,7 +253,7 @@ img {
 }
 
 .c4 p {
-  font-size: clamp(1rem, 1.4vw, 4rem);
+  font-size: clamp(0.6rem, 1.4vw, 4rem);
   color: hsla(192, 100%, 9%, 0.748);
   margin: 0rem 1.6rem;
 }
@@ -303,17 +303,17 @@ img {
 /* footer styling */
 
 .footer {
-  padding: 2rem 2rem;
+  padding: 2rem 0rem;
   background-color: hsl(192, 100%, 9%);
   color: whitesmoke;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   border: none;
 
 }
 .footer-cont{
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -335,7 +335,7 @@ img {
 }
 
 .footer-art-1 p {
-  font-size: clamp(1rem, 2vh, 4rem);
+  font-size: clamp(0.61rem, 1.4vw, 4rem);
   font-weight: 500;
 }
 
@@ -350,7 +350,7 @@ img {
   padding: 1rem;
   margin: 1rem 0rem;
   border-radius: 5px;
-  font-size: clamp(0.6rem,1.7vh,3rem);
+  font-size: clamp(0.7rem,1.7vw,3rem);
   font-weight: 500;
 }
 
@@ -370,6 +370,9 @@ img {
   flex-direction: column;
   gap: 1.4rem;
 }
+.footer-art-2 p{
+  font-size: clamp(0.61rem, 1.6vw, 4rem);
+}
 .logo-bg {
   display: flex;
   align-items: center;
@@ -378,43 +381,44 @@ img {
 }
 .logo-bg span{
   
-  font-size: clamp(2.5rem, 3vw, 5rem);
+  font-size: clamp(2.1rem, 3vw, 5rem);
   font-weight: 600;
 }
 
 .logo-bg img {
-  width: clamp(29px, 5vh, 100px);
+  width: clamp(29px, 5vw, 100px);
   height: auto;
 
 }
 .footer-art-2 .logo {
-  width: clamp(180px, 11vh, 300px);
+  width: clamp(180px, 11vw, 300px);
 }
 
 .contact-details {
   display: flex;
   gap: 1rem;
-  font-size: clamp(1.1rem, 2vh, 4rem);
+  font-size: clamp(0.8rem, 2vh, 4rem);
 }
 
 .contact-details img {
   width: clamp(25px, 1vh, 50px);
   height: clamp(21px, 1vh, 47px);
 }
+/* social media icons  */
 
 .sci-icons-cont {
   display: flex;
-  gap: 5px;
   align-items: center;
-  margin-left: -5px;
+  
   
 }
 
 .icon {
-  width: 39px;
-  height: 30px;
+  width: 30px;
+  height: auto;
   object-fit: contain;
   cursor: pointer;
+  margin-right: 0.5rem;
   transition: transform 0.3s ease;
 }
 
@@ -426,6 +430,11 @@ media query
 . */
 
 @media (min-width:768px) {
+  .icon {
+  width: 39px;
+  height: auto;
+ 
+}
   .heading{
     padding: 1rem 1rem;
   }
