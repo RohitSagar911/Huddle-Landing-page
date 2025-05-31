@@ -268,8 +268,8 @@ img {
   align-items: center;
   justify-content: center;
   background-image:
-    url("/images/bg-section-bottom-mobile-2.svg"),
-    url("/images/bg-footer-top-mobile.svg");
+    url("images/bg-section-bottom-mobile-2.svg"),
+    url("images/bg-footer-top-mobile.svg");
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: 100% auto, 100% auto;
@@ -277,8 +277,8 @@ img {
       @media(min-width:600px){
         .sec5 {
           background-image:
-          url("/images/bg-section-bottom-mobile-2.svg"),
-          url("/images/bg-footer-top-desktop.svg");
+          url("images/bg-section-bottom-mobile-2.svg"),
+          url("images/bg-footer-top-desktop.svg");
           
         background-size: 100% auto, 100% auto;
       }
