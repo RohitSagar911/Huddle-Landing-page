@@ -4,7 +4,7 @@ A modern and responsive landing page for the Huddle platform. Built with HTML, C
 
 
 This the preview of my site for Desktop computers (vary device to device)
-![Huddle Preview](./design/sythexis-huddle.netlify.app_(desktop%20normal).png)
+![Huddle Preview](./preview/sythexis-huddle.netlify.app_(desktop%20normal).png)
 
 ## 📱 Responsive Preview
 
@@ -45,10 +45,10 @@ Get live preview of my site here
 Screenshots of my site on different devices
 
 ### 📱 Mobile View
-![Mobile View](./design/huddle-mobile.png)
+![Mobile View](./preview/huddle-mobile.png)
 
 ### 🖥️ Tablet View
-![Desktop View](./design/huddle-tablet.png)
+![Desktop View](./preview/huddle-tablet.png)
 
 
 ---
