@@ -192,7 +192,6 @@ img {
 .c2 p {
   color: hsl(192, 100%, 9%);
   font-size: clamp(0.8rem, 1vw, 2rem);
-  margin: 0rem 1rem;
 
 }
 
