@@ -88,7 +88,7 @@ img {
 .data {
   font-size: clamp(0.74rem, 1.1vw, 4rem);
   font-weight: 550;
-  padding: 0rem 15vw;
+  padding: 0rem 4rem;
   color: hsla(192, 100%, 9%, 0.829);
 }
 
@@ -99,7 +99,7 @@ img {
   background-color: hsl(322, 100%, 66%);
   padding: 1.3rem 3.7rem;
   border-radius: 34px;
-  font-size: clamp(0.6rem, 1.3vw, 2rem);
+  font-size: clamp(0.9rem, 1.5vw, 3rem);
   border: none;
   transition: 0.3s;
   color: hsl(0, 0%, 93%);
@@ -193,7 +193,6 @@ img {
 .c2 p {
   color: hsl(192, 100%, 9%);
   font-size: clamp(0.8rem, 1.1vw, 2rem);
-  padding: 0rem 9vw;
 
 }
 
@@ -260,8 +259,7 @@ img {
 }
 
 .c4 p {
-  font-size: clamp(0.8rem, 1.1vw, 4rem);
-  margin: 0rem 2rem;
+  font-size: clamp(0.8rem, 1.1vw, 4rem); margin: 0rem 2rem;
 }
 
 /* section 5 styling */
